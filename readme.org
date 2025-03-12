@@ -7,7 +7,16 @@
 * 测试情况
   在ArchLinux 和mongodb 8上面测试通过
 * 安装方法
-  
-  
+  在~/.emacs.d/elpa/目录下创建mongosh目录，将mongosh.el文件复制过去，然后修改mongodb的登录配置:
+  #+BEGIN_SRC elisp
+    (setq db-list '(("db1" . ("user1" "pwd1"))
+                    ("db2" . ("user2" "pwd2"))
+                    ("db3" . ("user3" "pwd3"))))
+  #+END_SRC
+  然后在~/.emacs.d/init.el文件中添加
+  #+BEGIN_SRC elisp
+    (require 'mongosh)
+  #+END_SRC
+  重启emacs
   
   

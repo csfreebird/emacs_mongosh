@@ -19,3 +19,5 @@
     (make-comint-in-buffer "mongosh" buffer-name "mongosh")
     (switch-to-buffer buffer-name)
     (comint-send-string (get-buffer-process buffer-name) (gen-auth-cmd db_name))))
+
+(provide 'mongosh)
