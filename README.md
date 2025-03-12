@@ -1,0 +1,2 @@
+# emacs_mongosh
+在emacs中使用mongosh快速登录mongodb数据库
