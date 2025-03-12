@@ -1,0 +1,13 @@
+#+title: emacs_mongosh
+* 用途
+  在emacs中使用mongosh快速登录mongodb数据库，
+  操作方法: M-x mongosh, 输入数据库名称，然后就可以自动登录，前提是你已经配置好了数据库名称以及对应的用户名和密码
+* 安装前提
+  系统需要有mongosh客户端
+* 测试情况
+  在ArchLinux 和mongodb 8上面测试通过
+* 安装方法
+  
+  
+  
+  
