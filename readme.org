@@ -15,6 +15,7 @@
   #+END_SRC
   然后在~/.emacs.d/init.el文件中添加
   #+BEGIN_SRC elisp
+    (add-to-list 'load-path (expand-file-name "~/.emacs.d/elpa/mongosh/"))
     (require 'mongosh)
   #+END_SRC
   重启emacs
